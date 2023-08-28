@@ -1,0 +1,46 @@
+.container {
+    background-color: #023047;
+    padding: 1rem;
+    color: white;
+}
+
+.navbar_brand {
+    margin-bottom: 1rem;
+}
+
+.navbar_list {
+    list-style: none;
+}
+
+.navbar_item {
+    margin-bottom: 1rem;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+/* large screen  */
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar_brand {
+        margin-bottom: 0;
+    }
+
+    .navbar_list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar_item {
+        margin: 0 1rem;
+    }
+
+}

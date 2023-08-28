@@ -1,0 +1,83 @@
+/* small */
+.container {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.judul {
+    text-align: center;
+    color: #023047;
+}
+
+.title {
+    color: #FFB703;
+    text-align: center;
+}
+
+
+.cards {
+    box-shadow: 0 20px 24px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+    color: black;
+    transition: 0.3s;
+    padding: 60px 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.cards_judul{
+    font-size: 30px;
+}
+
+.cards1_title {
+    color:#023047;
+}
+.cards2_title{
+    color: #FFB703;
+}
+.cards3_title {
+    color: #8ECAE6;
+}
+
+.cards {
+    box-shadow: 0 20px 24px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+    color: black;
+    transition: 0.3s;
+    padding: 60px 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+/* large screen */
+@media (min-width: 992px) {
+    .container {
+        margin: 0;
+        margin-bottom: 100px;
+    }
+    .card {
+        margin: 4rem;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .cards {
+        margin-top: 0;
+        width: 190px;
+        height: 140px;
+    }
+    .cards1_title {
+        margin-top: 0;
+    }
+    .cards2_title {
+        margin-top: 0;
+    }
+    .cards3_title {
+        margin-top: 0;
+    }
+}
